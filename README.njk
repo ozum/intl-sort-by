@@ -1,0 +1,32 @@
+{% include "module-header" %}
+
+# Installation
+
+{%- include "installation" -%}
+
+# Synopsis
+
+```ts
+const objects = [
+  { initial: "Ö", class: 1, sub: { z: 1 } },
+  { initial: "o", class: 1, sub: { z: 3 } },
+  { initial: "ö", class: 2, sub: { z: 3 } },
+  { initial: "ğ", class: 2, sub: { z: 2 } },
+];
+
+// Sort by `initial`
+const sortedByInitial = sort(objects, "initial");
+
+// Sort by `sub.z` and then `initial`.
+const sortedByMulti = sort(objects, ["sub.z", "initial"]);
+
+// Sort by `sub.z` in reverse order and then `initial`.
+const sortedByMulti = sort(objects, ["-sub.z", "initial"]);
+
+// Sort by `sub.z` in reverse order and then `initial`. Same as above, but with options.
+const sortedByMulti = sort(objects, ["sub.z", "initial"], { order: ["desc", "asc"] });
+```
+
+# API
+
+{% include "api.md" %}
