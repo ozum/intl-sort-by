@@ -8,7 +8,6 @@ Sort simple arrays or array of objects by given keys in any direction. Supports 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Installation](#installation)
 - [Synopsis](#synopsis)
 - [API](#api)
 - [intl-sort-by](#intl-sort-by)
@@ -18,7 +17,6 @@ Sort simple arrays or array of objects by given keys in any direction. Supports 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-# Installation
 # Synopsis
 
 ```ts
@@ -57,7 +55,7 @@ const sortedByMulti = sort(objects, ["sub.z", "initial"], { order: ["desc", "asc
 
 ▸ **sort**<**T**>(`array`: T[], `keys?`: string | Array‹string | string[]›, `__namedParameters`: object): *T[]*
 
-Defined in index.ts:50
+*Defined in [index.ts:58](https://github.com/ozum/intl-sort-by/blob/5680c43/src/index.ts#L58)*
 
 Sorts simple arrays or array of objects by given keys in any direction. Supports international accented characters (diacritics).
 

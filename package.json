@@ -1,6 +1,6 @@
 {
   "name": "intl-sort-by",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sort simple arrays or array of objects by given keys in any direction. Supports international accented characters (diacritics).",
   "keywords": [
     "sort",
