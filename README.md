@@ -61,7 +61,7 @@ const sortedByMulti = sort(objects, ["sub.z", "initial"], { order: ["desc", "asc
 
 ▸ **sort**<**T**>(`array`: T[], `keys?`: string | Array‹string | string[]›, `options`: [Options](#interfacesoptionsmd)): *T[]*
 
-*Defined in [index.ts:51](https://github.com/ozum/intl-sort-by/blob/29c3430/src/index.ts#L51)*
+*Defined in [index.ts:51](https://github.com/ozum/intl-sort-by/blob/4532c4b/src/index.ts#L51)*
 
 Sorts simple arrays or array of objects by given keys in any direction. Supports international accented characters (diacritics).
 
@@ -102,7 +102,7 @@ Options for to be used when sorting.
 
 • **locale**? : *undefined | string*
 
-*Defined in [index.ts:10](https://github.com/ozum/intl-sort-by/blob/29c3430/src/index.ts#L10)*
+*Defined in [index.ts:10](https://github.com/ozum/intl-sort-by/blob/4532c4b/src/index.ts#L10)*
 
 String with a BCP 47 language tag, or an array of such strings.
 
@@ -112,7 +112,7 @@ ___
 
 • **order**? : *Order | Array‹Order›*
 
-*Defined in [index.ts:12](https://github.com/ozum/intl-sort-by/blob/29c3430/src/index.ts#L12)*
+*Defined in [index.ts:12](https://github.com/ozum/intl-sort-by/blob/4532c4b/src/index.ts#L12)*
 
 List of order directions to be used with given keys
 
