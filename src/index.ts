@@ -10,6 +10,8 @@ export interface Options {
   locale?: string;
   /** List of order directions to be used with given keys */
   order?: Order | Array<Order>;
+  /** Sort without modifying original array. */
+  immutable?: boolean;
 }
 
 function getNestedValueComparator(compare: CompareFunction, path: string | string[], order: Order): CompareFunction {
